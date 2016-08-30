@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-require 'twilio-ruby'
-require 'dotenv'
+gem 'twilio-ruby'
+gem 'dotenv'
 Dotenv.load
