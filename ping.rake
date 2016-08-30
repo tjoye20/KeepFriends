@@ -1,4 +1,5 @@
 require 'net/http'
+require 'rake'
 
 namespace :ping do
   desc "Ping our heroku dyno every 10, 60 or 3600 min"
