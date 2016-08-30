@@ -1,3 +1,5 @@
+require 'dotenv'
+Dotenv.load
 
 array_of_friends = [ENV['ray'], ENV['jen'], ENV['akeem'], ENV['gabe'], ENV['samuel'], ENV['brandon']]
 my_num = ENV['my_number']
