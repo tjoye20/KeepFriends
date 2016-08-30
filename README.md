@@ -11,8 +11,6 @@ To launch the program, run: ```` ruby text_friends.rb ````
 
 Note: You need to create a Twilio API account, in order to get your ``` account_sid ``` and ```` auth_token ````.
 
-To store those tokens in your environment, so it's not made public, create a ```` .env ```` file in your root directory, ```` touch .env ````.
-
-Also, you should creaete a ```` .gitignore ```` file, and add ```` .env ```` to it, just so you don't accidentally add that file to your commits.
+To store those tokens in your environment, so it's not made public, create a ```` .env ```` file in your root directory, ```` touch .env ````. Then, create a ```` .gitignore ```` file, and add ```` .env ```` to it, so you don't accidentally add that file to your Git commits.
 
 This is where you'll store all your private variables, like such: ```` account_sid=XXXXXXXXXXXXX ```` and call it in your app as, ```` ENV['account_sid'] ````.
