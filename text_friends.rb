@@ -1,6 +1,14 @@
-require 'twilio-ruby'
-require 'dotenv'
+require 'bundler/inline'
+
+gemfile do
+  source 'https://rubygems.org'
+  gem 'twilio-ruby'
+  gem 'dotenv'
+end
+
 Dotenv.load
+
+puts 'Gems installed and loaded!'
 
 array_of_friends = [ENV['ray'], ENV['jen'], ENV['akeem'], ENV['gabe'], ENV['samuel'], ENV['brandon']]
 my_num = ENV['my_number']
